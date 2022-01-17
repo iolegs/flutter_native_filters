@@ -9,7 +9,8 @@
 #endif
 
 @implementation NativeFiltersPlugin
-+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftNativeFiltersPlugin registerWithRegistrar:registrar];
++ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
+    [SwiftNativeFiltersPlugin registerWithRegistrar:registrar];
 }
+
 @end
